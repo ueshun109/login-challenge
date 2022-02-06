@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F16860B27AF7FFF000F120C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F16860A27AF7FFF000F120C /* LoginViewModel.swift */; };
 		6F22F64627AF916300B0E19A /* UseCases in Frameworks */ = {isa = PBXBuildFile; productRef = 6F22F64527AF916300B0E19A /* UseCases */; };
+		6FAC948027AF967700AFC342 /* LoginErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC947F27AF967700AFC342 /* LoginErrorHandling.swift */; };
+		6FAC948227AF96CB00AFC342 /* LoginErrorHandlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC948127AF96CB00AFC342 /* LoginErrorHandlingTests.swift */; };
 		D6673300279ABE8C00CC8AB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66732FF279ABE8C00CC8AB3 /* AppDelegate.swift */; };
 		D6673302279ABE8C00CC8AB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6673301279ABE8C00CC8AB3 /* SceneDelegate.swift */; };
 		D6673304279ABE8C00CC8AB3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6673303279ABE8C00CC8AB3 /* LoginViewController.swift */; };
@@ -45,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F16860A27AF7FFF000F120C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewModel.swift; path = LoginChallengeTests/LoginViewModel.swift; sourceTree = SOURCE_ROOT; };
+		6FAC947F27AF967700AFC342 /* LoginErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginErrorHandling.swift; sourceTree = "<group>"; };
+		6FAC948127AF96CB00AFC342 /* LoginErrorHandlingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginErrorHandlingTests.swift; sourceTree = "<group>"; };
 		D66732FC279ABE8C00CC8AB3 /* LoginChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D66732FF279ABE8C00CC8AB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6673301279ABE8C00CC8AB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				D6673303279ABE8C00CC8AB3 /* LoginViewController.swift */,
+				6F16860A27AF7FFF000F120C /* LoginViewModel.swift */,
+				6FAC947F27AF967700AFC342 /* LoginErrorHandling.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -146,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				D6673316279ABE8F00CC8AB3 /* LoginChallengeTests.swift */,
+				6FAC948127AF96CB00AFC342 /* LoginErrorHandlingTests.swift */,
 			);
 			path = LoginChallengeTests;
 			sourceTree = "<group>";
@@ -323,7 +332,9 @@
 				D6673302279ABE8C00CC8AB3 /* SceneDelegate.swift in Sources */,
 				D667333F279AD1E400CC8AB3 /* UIViewController+TransitionAsync.swift in Sources */,
 				D6673346279B07F400CC8AB3 /* HomeViewController.swift in Sources */,
+				6FAC948027AF967700AFC342 /* LoginErrorHandling.swift in Sources */,
 				D667334A279BAAED00CC8AB3 /* ActivityIndicatorCoverModifier.swift in Sources */,
+				6F16860B27AF7FFF000F120C /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6673317279ABE8F00CC8AB3 /* LoginChallengeTests.swift in Sources */,
+				6FAC948227AF96CB00AFC342 /* LoginErrorHandlingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
