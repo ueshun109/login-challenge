@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F22F64627AF916300B0E19A /* UseCases in Frameworks */ = {isa = PBXBuildFile; productRef = 6F22F64527AF916300B0E19A /* UseCases */; };
 		D6673300279ABE8C00CC8AB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66732FF279ABE8C00CC8AB3 /* AppDelegate.swift */; };
 		D6673302279ABE8C00CC8AB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6673301279ABE8C00CC8AB3 /* SceneDelegate.swift */; };
 		D6673304279ABE8C00CC8AB3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6673303279ABE8C00CC8AB3 /* LoginViewController.swift */; };
@@ -70,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F22F64627AF916300B0E19A /* UseCases in Frameworks */,
 				D667333B279ACAEC00CC8AB3 /* Logging in Frameworks */,
 				D6673341279AFFF900CC8AB3 /* APIServices in Frameworks */,
 				D6673343279AFFF900CC8AB3 /* Entities in Frameworks */,
@@ -194,6 +196,7 @@
 				D667333A279ACAEC00CC8AB3 /* Logging */,
 				D6673340279AFFF900CC8AB3 /* APIServices */,
 				D6673342279AFFF900CC8AB3 /* Entities */,
+				6F22F64527AF916300B0E19A /* UseCases */,
 			);
 			productName = LoginChallenge;
 			productReference = D66732FC279ABE8C00CC8AB3 /* LoginChallenge.app */;
@@ -679,6 +682,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		6F22F64527AF916300B0E19A /* UseCases */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UseCases;
+		};
 		D667333A279ACAEC00CC8AB3 /* Logging */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D6673339279ACAEC00CC8AB3 /* XCRemoteSwiftPackageReference "swift-log" */;
