@@ -11,6 +11,7 @@
 		6F22F64627AF916300B0E19A /* UseCases in Frameworks */ = {isa = PBXBuildFile; productRef = 6F22F64527AF916300B0E19A /* UseCases */; };
 		6FAC948027AF967700AFC342 /* LoginErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC947F27AF967700AFC342 /* LoginErrorHandling.swift */; };
 		6FAC948227AF96CB00AFC342 /* LoginErrorHandlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC948127AF96CB00AFC342 /* LoginErrorHandlingTests.swift */; };
+		6FAC948427AF9A9000AFC342 /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC948327AF9A9000AFC342 /* LoginViewModelTests.swift */; };
 		D6673300279ABE8C00CC8AB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66732FF279ABE8C00CC8AB3 /* AppDelegate.swift */; };
 		D6673302279ABE8C00CC8AB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6673301279ABE8C00CC8AB3 /* SceneDelegate.swift */; };
 		D6673304279ABE8C00CC8AB3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6673303279ABE8C00CC8AB3 /* LoginViewController.swift */; };
@@ -51,6 +52,7 @@
 		6F16860A27AF7FFF000F120C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewModel.swift; path = LoginChallengeTests/LoginViewModel.swift; sourceTree = SOURCE_ROOT; };
 		6FAC947F27AF967700AFC342 /* LoginErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginErrorHandling.swift; sourceTree = "<group>"; };
 		6FAC948127AF96CB00AFC342 /* LoginErrorHandlingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginErrorHandlingTests.swift; sourceTree = "<group>"; };
+		6FAC948327AF9A9000AFC342 /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
 		D66732FC279ABE8C00CC8AB3 /* LoginChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D66732FF279ABE8C00CC8AB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6673301279ABE8C00CC8AB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			children = (
 				D6673316279ABE8F00CC8AB3 /* LoginChallengeTests.swift */,
 				6FAC948127AF96CB00AFC342 /* LoginErrorHandlingTests.swift */,
+				6FAC948327AF9A9000AFC342 /* LoginViewModelTests.swift */,
 			);
 			path = LoginChallengeTests;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FAC948427AF9A9000AFC342 /* LoginViewModelTests.swift in Sources */,
 				D6673317279ABE8F00CC8AB3 /* LoginChallengeTests.swift in Sources */,
 				6FAC948227AF96CB00AFC342 /* LoginErrorHandlingTests.swift in Sources */,
 			);
