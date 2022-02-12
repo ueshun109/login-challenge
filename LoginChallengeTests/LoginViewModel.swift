@@ -49,7 +49,11 @@ final class LoginViewModel: ObservableObject {
             enableLoginButton = validation(id: id, password: password)
         }
     }
-    
+    /// 初期化処理
+    func initalize() {
+        canInput = true
+        enableLoginButton = validation(id: id, password: password)
+    }
     /// ログイン実行
     func login() async {
         // 処理が二重に実行されるのを防ぐ。
@@ -68,6 +72,7 @@ final class LoginViewModel: ObservableObject {
             try await AuthService.logInWith(id: id, password: password)
             loadingState = .loaded
         } catch {
+            logger.info("\(error)")
             let message = errorHandle(error)
             loadingState = .failed(error: error, message: message)
         }

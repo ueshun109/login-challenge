@@ -1,4 +1,4 @@
-public struct ErrorMessage: Sendable {
+public struct ErrorMessage: Sendable, Equatable {
     public let title: String
     public let message: String
     

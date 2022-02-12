@@ -11,7 +11,7 @@ final class LoginViewController: UIViewController {
     @IBOutlet private var passwordField: UITextField!
     @IBOutlet private var loginButton: UIButton!
     
-    @ObservedObject private var viewModel = LoginViewModel()
+    @StateObject private var viewModel = LoginViewModel()
     
     private var cancellables: Set<AnyCancellable> = []
     
@@ -47,6 +47,11 @@ final class LoginViewController: UIViewController {
                 }
             }
             .store(in: &cancellables)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        viewModel.initalize()
     }
     
     // ログインボタンが押されたときにログイン処理を実行。
